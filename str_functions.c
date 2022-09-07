@@ -1,10 +1,9 @@
 #include "monty.h"
 /**
- * _strcmp - Function that compares two strings.
+ * _strcmp - comparing two strings.
  * @s1: type str compared
  * @s2: type str compared
- * Return: 0 if s1 and s2 are equals.
- *         another value if they are different
+ * Return: 0 if s1 and s2 are equals, else another value
  */
 int _strcmp(char *s1, char *s2)
 {
@@ -20,7 +19,7 @@ int _strcmp(char *s1, char *s2)
 }
 
 /**
- * _sch - search if a char is inside a string
+ * _sch - search if char is inside string
  * @s: string to review
  * @c: char to find
  * Return: 1 if success 0 if not
