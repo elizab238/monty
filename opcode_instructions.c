@@ -1,11 +1,11 @@
 #include "monty.h"
 
 /**
- * _push - pushes an element to the stack
+ * _push - pushes element to stack
  *
- * @doubly: head of the linked list
+ * @doubly: head of linked list
  * @cline: line number
- * Return: no return
+ * Return: nothing
  */
 void _push(stack_t **doubly, unsigned int cline)
 {
